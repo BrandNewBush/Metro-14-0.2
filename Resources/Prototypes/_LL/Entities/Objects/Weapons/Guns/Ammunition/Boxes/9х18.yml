@@ -44,6 +44,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: LLCartridge9х18Improvised
+    capacity: 60
   - type: Sprite
     layers:
     - state: improvised

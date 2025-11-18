@@ -111,7 +111,7 @@
   - type: Construction
     graph: N14SackFertilizer
     node: sack
-   
+
 - type: entity
   parent: N14SackFertilizer
   id: N14SackFertilizerFull

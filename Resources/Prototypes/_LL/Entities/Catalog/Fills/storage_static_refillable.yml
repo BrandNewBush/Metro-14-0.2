@@ -189,7 +189,7 @@
           prob: 0.1
         - id: N14SackCompostFull
           prob: 0.1
-        - id: N14SackFertilizerFull
+        - id: MaterialFertilizer
           prob: 0.1
         - id: LLCannedCaviar
           prob: 0.1
@@ -369,7 +369,7 @@
           prob: 0.1
         - id: N14SackCompostFull
           prob: 0.1
-        - id: N14SackFertilizerFull
+        - id: MaterialFertilizer
           prob: 0.1
         - id: LLMaterialTitanium1
           prob: 0.1
@@ -1249,7 +1249,7 @@
           prob: 0.1
         - id: N14SackCompostFull
           prob: 0.1
-        - id: N14SackFertilizerFull
+        - id: MaterialFertilizer
           prob: 0.1
         - id: LLCannedCaviar
           prob: 0.1
@@ -1429,7 +1429,7 @@
           prob: 0.1
         - id: N14SackCompostFull
           prob: 0.1
-        - id: N14SackFertilizerFull
+        - id: MaterialFertilizer
           prob: 0.1
         - id: LLMaterialTitanium1
           prob: 0.1

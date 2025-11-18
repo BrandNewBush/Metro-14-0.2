@@ -509,10 +509,10 @@
     state: icon
   - type: Item
     size: Small
-  - type: Stack  
+  - type: Stack
     stackType: MaterialFertilizer
     count: 1
-  - type: PhysicalComposition 
+  - type: PhysicalComposition
     materialComposition:
       MaterialFertilizer: 100
   - type: SolutionContainerManager
@@ -525,27 +525,27 @@
   - type: Material
     id: MaterialFertilizer
     name: MaterialFertilizer
-  - type: ExaminableSolution 
+  - type: ExaminableSolution
     solution: powder
-  - type: DrainableSolution   
+  - type: DrainableSolution
     solution: powder
-  - type: RefillableSolution 
+  - type: RefillableSolution
     solution: powder
-  - type: DrawableSolution    
+  - type: DrawableSolution
     solution: powder
-  - type: SolutionTransfer   
+  - type: SolutionTransfer
     maxTransferAmount: 100
     minTransferAmount: 5
     canChangeTransferAmount: true
-  - type: Extractable        
+  - type: Extractable
     grindableSolutionName: powder
-      
+
 - type: material
   id: MaterialFertilizer
   stackEntity: MaterialFertilizer
   unit: materials-unit-materialfertilizer
   name: Удобрение
-  icon: 
+  icon:
     sprite: _Nuclear14/Objects/Misc/Sacks/daesack2.rsi
     state: icon
   color: "#32CD32"
@@ -554,10 +554,9 @@
 - type: stack
   id: MaterialFertilizer
   name: Удобрение
-  icon: 
+  icon:
     sprite: _Nuclear14/Objects/Misc/Sacks/daesack2.rsi
     state: icon
   spawn: MaterialFertilizer1
   maxCount: 1
   itemSize: 1
- 

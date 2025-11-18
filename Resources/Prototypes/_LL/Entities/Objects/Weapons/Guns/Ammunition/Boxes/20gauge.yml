@@ -6,6 +6,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: LLShellShotgun20Improvised
+    capacity: 60
   - type: Sprite
     sprite: _LL/Objects/Weapons/Guns/Ammunition/Boxes/20.rsi
     layers:

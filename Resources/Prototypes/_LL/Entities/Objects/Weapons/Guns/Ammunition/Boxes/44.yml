@@ -6,6 +6,7 @@
   components:
   - type: BallisticAmmoProvider
     proto: LLCartridge44MagnumImprovised
+    capacity: 60
   - type: Sprite
     sprite: _LL/Objects/Weapons/Guns/Ammunition/Boxes/44.rsi
     layers:

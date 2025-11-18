@@ -6,6 +6,8 @@
       огнестрел:
       - proto: N14WeaponPistol9mm
         price: 125
+      - proto: LLWeaponSMGBastard
+        price: 600
       ближнее:
       - proto: SurvivalKnife
         price: 35
@@ -27,8 +29,6 @@
         price: 175
       - proto: MagazineBox762х54R
         price: 320
-      - proto: MagazineBox9х18Improvised
-        price: 35        
       шляпы:
       - proto: N14ClothingHeadHatEnclavePeacekeeperCap
         price: 10
@@ -323,7 +323,7 @@
         price: 15
       - proto: N14Multitool
         price: 15
-  
+
     Sell:
       огнестрел:
       - proto: LLWeaponSMGBastard
