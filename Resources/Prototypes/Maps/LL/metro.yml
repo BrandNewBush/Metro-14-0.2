@@ -15,4 +15,6 @@
           availableJobs:
             MetroResident: [ -1, -1 ]
             Machinist: [ 1, 1 ]
-            Bastard: [ 0, 0 ]
+            Bastard: [ 4, 4 ]
+            SergeantKrasnyProspekt: [ 1, 1 ]
+            FighterKrasnyProspekt: [ 2, 2 ]

@@ -23,7 +23,7 @@
     - type: RandomHumanoidAppearance
       randomizeName: true
     - type: Loadout
-      prototypes: [LLMachinist]
+      prototypes: [LLMetroMachinist]
     - type: NpcFactionMember
       factions:
       - Metro
@@ -42,3 +42,33 @@
     - type: NpcFactionMember
       factions:
       - Bandit
+
+- type: entity
+  parent: N14MobHumanFollowers
+  id: LLMobHumanSergeantKrasnyProspekt
+  name: Сержант Красного Проспекта
+  components:
+    - type: Icon
+      state: MetroResident
+    - type: RandomHumanoidAppearance
+      randomizeName: true
+    - type: Loadout
+      prototypes: [LLSergeantKrasnyProspekt]
+    - type: NpcFactionMember
+      factions:
+      - KrasnyProspekt
+
+- type: entity
+  parent: N14MobHumanFollowers
+  id: LLMobHumanFighterKrasnyProspekt
+  name: Боец Красного Проспекта
+  components:
+    - type: Icon
+      state: MetroResident
+    - type: RandomHumanoidAppearance
+      randomizeName: true
+    - type: Loadout
+      prototypes: [LLFighterKrasnyProspekt]
+    - type: NpcFactionMember
+      factions:
+      - KrasnyProspekt

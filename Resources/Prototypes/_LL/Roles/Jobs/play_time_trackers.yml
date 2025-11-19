@@ -7,3 +7,8 @@
 - type: playTimeTracker
   id: JobBastard
 
+- type: playTimeTracker
+  id: JobSergeantKrasnyProspekt
+
+- type: playTimeTracker
+  id: JobFighterKrasnyProspekt

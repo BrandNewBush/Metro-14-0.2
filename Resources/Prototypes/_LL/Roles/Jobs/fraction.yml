@@ -6,4 +6,20 @@
   roles:
   - MetroResident
   - Machinist
+
+- type: department
+  id: KrasnyProspekt
+  name: Красный Проспект
+  description: Тонели Метро
+  color: "#85461d"
+  roles:
+  - SergeantKrasnyProspekt
+  - FighterKrasnyProspekt
+
+- type: department
+  id: Bandit
+  name: Ублюдки с Ублюдками
+  description: Тонели Метро
+  color: "#85461d"
+  roles:
   - Bastard

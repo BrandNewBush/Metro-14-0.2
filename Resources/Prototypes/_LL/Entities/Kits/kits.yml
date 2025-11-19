@@ -1,5 +1,5 @@
 - type: entity
-  name: Набор Машиниста
+  name: набор машиниста
   parent: KitBase
   id: LLKitMachinist
   description: Базовый набор всех машинистов.
@@ -18,7 +18,7 @@
       - id: MagazineBox762х25
 
 - type: entity
-  name: Набор Ублюдка
+  name: набор ублюдка
   parent: KitBase
   id: LLKitBastard
   description: Базовый набор всех ублюдков.
@@ -43,3 +43,47 @@
       - id: N14ClothingNeckTownGuardCloak
       - id: ClothingMaskGasMiner
 
+- type: entity
+  name: набор сержанта красного проспекта
+  parent: KitBase
+  id: LLKitSergeantKrasnyProspekt
+  description: Базовый набор всех сержантов красного проспекта.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Small
+  - type: SpawnItemsOnUse
+    items:
+      - id: LLWeaponSMGBastard
+      - id: LLMagazine545х39Bastard
+      - id: LLMagazine545х39Bastard
+      - id: MagazineBox545х39
+      - id: ClothingMaskGasMiner
+      - id: LLCannedStew
+      - id: LLCannedStew
+      - id: N14DirtyGauze10
+      - id: N14DirtyGauze10
+      - id: FlashlightLantern
+
+- type: entity
+  name: набор бойца красного проспекта
+  parent: KitBase
+  id: LLKitFighterKrasnyProspekt
+  description: Базовый набор всех бойцов красного проспекта.
+  components:
+  - type: Sprite
+    state: rifleman
+  - type: Item
+    size: Small
+  - type: SpawnItemsOnUse
+    items:
+      - id: N14WeaponPistol45Colt
+      - id: N14MagazinePistol45
+      - id: N14MagazinePistol45
+      - id: MagazineBox45
+      - id: ClothingMaskGasMiner
+      - id: LLCannedStew
+      - id: LLCannedStew
+      - id: N14DirtyGauze10
+      - id: N14DirtyGauze10

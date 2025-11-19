@@ -66,3 +66,53 @@
   storage:
     back:
     - LLKitBastard
+
+- type: job
+  id: SergeantKrasnyProspekt
+  name: Сержант Красного Проспекта
+  description: Руководить своей станцией и своими людьми.
+  playTimeTracker: JobSergeantKrasnyProspekt
+  startingGear: LLSergeantKrasnyProspekt
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-nobody
+  departments: [KrasnyProspekt]
+
+- type: startingGear
+  id: LLSergeantKrasnyProspekt
+  equipment:
+    jumpsuit: LLUSSPSergeant
+    shoes: N14ClothingBootsCombat
+    outerClothing: LLClothingOuterMakeshiftVest
+    belt: ClothingBeltStorageWaistbag
+    head: N14ClothingHeadHatBrotherhoodCap
+    pocket1: LLMetruble200
+    pocket2: CombatKnife
+    back: N14ClothingBackpackSatchelMilitary
+  storage:
+    back:
+    - LLKitSergeantKrasnyProspekt
+
+- type: job
+  id: FighterKrasnyProspekt
+  name: Боец Красного Проспекта
+  description: Слушайтесь своего сержанта.
+  playTimeTracker: JobFighterKrasnyProspekt
+  startingGear: LLFighterKrasnyProspekt
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-nobody
+  departments: [KrasnyProspekt]
+
+- type: startingGear
+  id: LLFighterKrasnyProspekt
+  equipment:
+    jumpsuit: N14ClothingUniformJumpsuitCombat
+    shoes: N14ClothingBootsLeather
+    outerClothing: LLClothingOuterMakeshiftVest
+    belt: ClothingBeltStorageWaistbag
+    head: N14ClothingHeadHatBeanie
+    pocket1: LLMetruble200
+    pocket2: CombatKnife
+    back: N14ClothingBackpackMilitary
+  storage:
+    back:
+    - LLKitFighterKrasnyProspekt

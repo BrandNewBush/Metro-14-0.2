@@ -10,7 +10,9 @@ department-Townsfolk = Город
 department-Followers = Последователи Апокалипсиса
 department-Zetan = Дзетанцы
 department-Rangers = Группа рейнджеров
-department-Metro = Жители метро
+department-Metro = Жители метро (могут брать все)
+department-Bandit = Ублюдки с Ублюдками (берут только создатели)
+department-KrasnyProspekt = Красный Проспект (берут только создатели)
 
 # Descriptions
 department-BrotherhoodMidwest-description = Среднезападное отделение Братства Стали.

@@ -33,3 +33,27 @@
     layers:
       - state: green
       - state: passenger
+
+- type: entity
+  id: SpawnPointSergeantKrasnyProspekt
+  parent: SpawnPointJobBase
+  name: Сержант Красного Проспекта
+  components:
+  - type: SpawnPoint
+    job_id: SergeantKrasnyProspekt
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointFighterKrasnyProspekt
+  parent: SpawnPointJobBase
+  name: Боец Красного Проспекта
+  components:
+  - type: SpawnPoint
+    job_id: FighterKrasnyProspekt
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
