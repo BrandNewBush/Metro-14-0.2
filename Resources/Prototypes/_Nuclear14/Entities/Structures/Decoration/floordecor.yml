@@ -1,3 +1,4 @@
+#LL под свои нужды
 - type: entity
   id: N14DecorFloorBase
   suffix: Mapping
@@ -25,6 +26,11 @@
           collection: WoodDestroy
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank1:
+            min: 1
+            max: 3
   - type: Transform
   - type: Physics
     bodyType: Static
@@ -564,6 +570,8 @@
   - type: Sprite
     state: foodstuff_6
 
+#LL изменили под свои нужды
+
 - type: entity
   parent: N14DecorFloorWorldBase
   id: N14DecorFloorTrashbags1
@@ -583,6 +591,67 @@
         - MachineMask
         layer:
         - MachineLayer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Wood
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          LLFototoxisch:
+            min: 0
+            max: 1
+          FoodPacketSusTrash:
+            min: 0
+            max: 1
+          FoodPacketPopcornTrash:
+            min: 0
+            max: 1
+          FoodPacketRaisinsTrash:
+            min: 0
+            max: 1
+          FoodPacketSemkiTrash:
+            min: 0
+            max: 1
+          FoodPacketSyndiTrash:
+            min: 0
+            max: 1
+          BrokenBottle:
+            min: 0
+            max: 1
+          FoodPacketBoritosTrash:
+            min: 0
+            max: 1
+          FoodPacketCheesieTrash:
+            min: 0
+            max: 1
+          FoodPacketChipsTrash:
+            min: 0
+            max: 1
+          FoodPacketChocolateTrash:
+            min: 0
+            max: 1
+          FoodPacketChowMeinTrash:
+            min: 0
+            max: 1
+          FoodPacketCnDsTrash:
+            min: 0
+            max: 1
+          FoodPacketDanDanTrash:
+            min: 0
+            max: 1
+          FoodPacketEnergyTrash:
+            min: 0
+            max: 1
+          FoodPacketPistachioTrash:
+            min: 0
+            max: 1
 
 - type: entity
   parent: N14DecorFloorTrashbags1

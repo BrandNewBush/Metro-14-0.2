@@ -10,7 +10,7 @@
   - type: TimedSpawner
     prototypes:
       - LLGhoul
-    interval: 5
+    interval: 30
     maxCount: 10
     spawnRadius: 5.0
 
@@ -26,7 +26,7 @@
   - type: TimedSpawner
     prototypes:
       - LLBeetlelegs
-    interval: 5
+    interval: 30
     maxCount: 10
     spawnRadius: 5.0
 
@@ -43,7 +43,7 @@
   - type: TimedSpawner
     prototypes:
       - LLSmallBeetlelegs
-    interval: 5
+    interval: 30
     maxCount: 10
     spawnRadius: 5.0
 
@@ -60,7 +60,7 @@
   - type: TimedSpawner
     prototypes:
       - LLBeetlelegsTox
-    interval: 5
+    interval: 30
     maxCount: 10
     spawnRadius: 5.0
 
@@ -76,7 +76,7 @@
   - type: TimedSpawner
     prototypes:
       - LLFototoxisch
-    interval: 5
+    interval: 30
     maxCount: 10
     spawnRadius: 5.0
 
@@ -92,7 +92,7 @@
   - type: TimedSpawner
     prototypes:
       - LLMutantRat
-    interval: 5
+    interval: 30
     maxCount: 10
     spawnRadius: 5.0
 
@@ -108,6 +108,6 @@
   - type: TimedSpawner
     prototypes:
       - LLMobGiantFireAnt
-    interval: 5
+    interval: 30
     maxCount: 10
     spawnRadius: 5.0

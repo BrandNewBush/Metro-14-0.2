@@ -22,6 +22,8 @@
       магазины:
       - proto: LLMagazine9х18Pistol
         price: 50
+      - proto: LLMagazine545х39Bastard
+        price: 100
       боеприпасы:
       - proto: MagazineBox9х18
         price: 90
@@ -117,10 +119,6 @@
       - proto: ClothingUniformJumpsuitRecruitNT
         price: 20
       - proto: UniformScrubsColorCyan
-        price: 20
-      - proto: LLUSSPSergeant
-        price: 20
-      - proto: LLUSSPLieutenant
         price: 20
       плащи:
       - proto: N14ClothingNeckCloakGhillie
@@ -331,8 +329,6 @@
       - proto: N14WeaponPistol9mm
         price: 25
       - proto: N14WeaponRevolver45-70Hunter
-        price: 150
-      - proto: LLWeaponSMGBastard
         price: 150
       - proto: LLWeaponSMGPPSh
         price: 200

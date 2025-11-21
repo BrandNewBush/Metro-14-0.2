@@ -16,6 +16,7 @@
       - id: LLMagazine762х259PPSh
       - id: LLMagazine762х259PPSh
       - id: MagazineBox762х25
+      - id: RadioHandheld
 
 - type: entity
   name: набор ублюдка
@@ -42,6 +43,7 @@
       - id: LLCannedStew
       - id: N14ClothingNeckTownGuardCloak
       - id: ClothingMaskGasMiner
+      - id: RadioHandheld
 
 - type: entity
   name: набор сержанта красного проспекта
@@ -65,6 +67,7 @@
       - id: N14DirtyGauze10
       - id: N14DirtyGauze10
       - id: FlashlightLantern
+      - id: RadioHandheld
 
 - type: entity
   name: набор бойца красного проспекта
@@ -87,3 +90,4 @@
       - id: LLCannedStew
       - id: N14DirtyGauze10
       - id: N14DirtyGauze10
+      - id: RadioHandheld
