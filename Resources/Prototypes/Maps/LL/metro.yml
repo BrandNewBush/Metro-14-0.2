@@ -16,5 +16,5 @@
             MetroResident: [ -1, -1 ]
             Machinist: [ 1, 1 ]
             Bastard: [ 4, 4 ]
-            SergeantKrasnyProspekt: [ 1, 1 ]
-            FighterKrasnyProspekt: [ 2, 2 ]
+            SergeantKrasnyProspekt: [ 0, 0 ]
+            FighterKrasnyProspekt: [ 0, 0 ]
