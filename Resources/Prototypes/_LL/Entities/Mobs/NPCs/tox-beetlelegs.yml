@@ -54,6 +54,7 @@
         Slash: 1
         Poison: 15
         Radiation: 1
+        Structural: 40
     range: 1.5
     attackRate: 0.8
   - type: MovementSpeedModifier

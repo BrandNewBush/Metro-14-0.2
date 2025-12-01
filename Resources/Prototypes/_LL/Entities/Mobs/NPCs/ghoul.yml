@@ -55,6 +55,7 @@
         Blunt: 7
         Slash: 8
         Piercing: 7
+        Structural: 60
     range: 1.5
     attackRate: 1.0
   - type: MovementSpeedModifier
