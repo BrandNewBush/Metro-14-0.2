@@ -44,6 +44,7 @@
     damage:
       types:
         Slash: 1
+        Structural: 10
     range: 1.5
     attackRate: 0.6
   - type: MovementSpeedModifier
